@@ -98,6 +98,8 @@ def previousgues():
 while game_over == False:
     print(f"There are {len(word)} letters in the word. Guess a letter: ")
     print(HANGMANPICS[tries])
+    for i in range(len(hiddenword)):
+        " ".join(word)
     print("Word:", hiddenword)
     prevgues.sort()
     print("Previous guesses:", prevgues)
